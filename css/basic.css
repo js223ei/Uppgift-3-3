@@ -66,8 +66,9 @@ td {
 	
 	max-width:600px;
 	margin:0 auto;
-	padding-top:10px;
-	height:800px;
+	height:629px;
+	border: solid 1px #C0C1AE;
+				 
 	}
 
 
@@ -76,23 +77,26 @@ td {
 float:left;
 
 
+
 }
 
 #menu li, a {
-	display:block;
-	width:100px;
-	background-color:#797066;
-	color:#FFFFFF;
+	
+	
+	width: 90px;
+	
 	display:block;
 	height:30px;
+	
 	
 
 }
 
 #menu {
 	background-color:#51473d;
-	height:20px;
-	padding:10px;
+	height:35px;
+	padding-left:10px;
+	
 }
 
 #menu a {
@@ -101,7 +105,9 @@ float:left;
 	padding-top:10px;
 	border: 1px solid #51473d;
 	border-top:none;
-	font-size:14px;
+	font-size:13px;
+	color:#eae7d2;
+	background-color:#797066;
 	
 
 }
@@ -110,6 +116,7 @@ float:left;
 	text-align:center;
 	text-decoration:none;
 	text-transform:capitalize;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 	
 	
 	
@@ -117,25 +124,28 @@ float:left;
 
 #menu li a {
 	display:inline-block;
-	color:#eae7d2;
+	
+	border-top:solid 1px #847c73;
 	
 }
 
 #menu li a:hover{
 	background-color:#9c9084;
 	color: #eae7d2;
+	border-top:solid 1px #847c73;
 	}
 
 #menu li.active a {
 	background-color:#eae7d2;
 	color:#797066;
+	border-top:none;
 	
 }
 
 #maincontent h1 {
 	text-indent:;
 	font-size:30px;
-	color: #808080;
+	color: #797066;
 	font-family:"Times New Roman", Times, serif;
 	padding-bottom:15px;
 	padding-top:5px;
@@ -145,32 +155,38 @@ float:left;
 
 #maincontent {	
 	float:left;
-	width:330px;
+	width:343px;
 	letter-spacing:1px;
 	line-height:170%;
 	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding-bottom:10px;
 
 }
 
 
 
-#subcontent  {
+#subcontent   {
 	width:218px;
 	float:right;
 	border-left: dashed 1px;
 	border-color:#c0c0c0;
 	margin-left:10px;
 	font-size:10px;
-	letter-spacing: ;
-	line-height:200%;
+	
 	padding-left:8px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding-bottom:15px;
 
 }
 
-#subcontent p {
-	
+#subcontent p  {
+	letter-spacing: ;
+	line-height:200%;
+
 }
+
+
 
 #subcontent h1 {
 	font-size:16px;
@@ -185,7 +201,22 @@ float:left;
 	color:#51473d;
 	font-size:14px;
 	font-family:"Times New Roman", Times, serif;
-	padding-top:15px;
+	padding-top:20px;
+	padding-bottom:5px;
+	
+
+}
+
+#subcontent ul li a {
+	color: #51473d;
+	
+
+}
+
+
+#subcontent a {
+	font-size:13px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
 
 }
 
@@ -221,13 +252,19 @@ float:left;
 	font-stretch: inherit;
 	color:#797066;
 	
+	
 }
 
 
 
 #bottomcontent {
 	width:100%;
-	overflow:auto;
+	
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:oblique;
+	padding-bottom:10px;
+	font-size: 11px;
 
 
 
