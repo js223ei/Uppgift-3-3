@@ -66,7 +66,7 @@ td {
 	
 	max-width:600px;
 	margin:0 auto;
-	height:629px;
+	height:595px;
 	border: solid 1px #C0C1AE;
 				 
 	}
@@ -83,7 +83,7 @@ float:left;
 #menu li, a {
 	
 	
-	width: 90px;
+	
 	
 	display:block;
 	height:30px;
@@ -94,7 +94,7 @@ float:left;
 
 #menu {
 	background-color:#51473d;
-	height:35px;
+	height:29px;
 	padding-left:10px;
 	
 }
@@ -108,7 +108,8 @@ float:left;
 	font-size:13px;
 	color:#eae7d2;
 	background-color:#797066;
-	
+	padding-left:18px;
+	padding-right:18px;
 
 }
 
@@ -158,8 +159,8 @@ float:left;
 	width:343px;
 	letter-spacing:1px;
 	line-height:170%;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size:12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 	
+	font-size:11px;
 	padding-bottom:10px;
 
 }
@@ -217,7 +218,7 @@ float:left;
 #subcontent a {
 	font-size:13px;
 	font-family:Verdana, Arial, Helvetica, sans-serif;
-
+	height:20px;
 }
 
 #topbar	{
